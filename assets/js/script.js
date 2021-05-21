@@ -121,7 +121,8 @@ $('#scan-btn').on('click', function(){
  $('#scan').on('change', function(e) {
     sleep(4000);
     result = ['No infection found in CT Scan', 'Infection discovered. Please contact a health professional.'][getRandomIntInclusive(0, 1)];
-    swal(result);
+    swal(rels
+        sult);
 });
 
  function getRandomIntInclusive(min, max) {
